@@ -11,7 +11,7 @@ body, html, .container{
 }
 
 .parallax1{
-    background: url(resources/flower4.jpg);
+    background: url(resource/flower4.jpg);
     position: relative;
     height: 100%;
     max-width: 100%;
@@ -23,15 +23,15 @@ body, html, .container{
     
 }
 .parallax2{
-    background: url(resources/flower10.jpg);
+    background: url(resource/flower10.jpg);
     
 }
 .parallax3{
-    background: url(resources/flower6.jpg);
+    background: url(resource/flower6.jpg);
  
 }
 .parallax4{
-    background: url(resources/flower14.jpg);
+    background: url(resource/flower14.jpg);
 
 }
 .parallax2, .parallax3, .parallax4{
