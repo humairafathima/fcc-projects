@@ -31,7 +31,7 @@ body, html, .container{
  
 }
 .parallax4{
-    background: url(resource/flower14.jpg);
+    background: url(resource/flower7.jpg);
 
 }
 .parallax2, .parallax3, .parallax4{
@@ -232,7 +232,7 @@ section{
     margin-top: 10px;
     width: 70px;
 }
-.dark > h1{
+.dark > h2{
     margin-top: 0;
     font-size: 40px;
     line-height: 8vh;
@@ -251,7 +251,7 @@ section{
     flex: 100%;
 }
 }
-.dark > h1{
+.dark > h2{
     text-shadow: 5px 0px 2px rgb(67, 132, 161);
 }
 .price{
@@ -302,11 +302,14 @@ section{
     grid-gap: 30px;
     padding: 50px;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 900px){
     .image-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        padding: 5px;
+        grid-gap: 8px;
+        margin-top: 10px;
     }
     .grid-wrapper{
         padding-top: 17%;
@@ -384,9 +387,9 @@ section{
 }
 .eventmgt{
     background: linear-gradient(270deg, rgba(67,132,161,0.6586834562926733) 17%, rgba(197,200,201,0.39257701371564246) 81%);
-    margin-bottom: -22px;
+    margin-bottom: -34px;
 }
-.two-column h1{
+.two-column h2{
     text-transform: capitalize;
     color: rgb(67, 132, 161);
     text-shadow: 5px 0px 2px black;
@@ -394,7 +397,7 @@ section{
     line-height: 60px;
 }
 @media screen and (max-width: 1000px){
-    .two-column h1{
+    .two-column h2{
         font-size: 45px;
         padding-top: 20%;
     }
@@ -412,7 +415,7 @@ section{
         float: none;
         width: 100%;
         }
-        .two-column h1{
+        .two-column h2{
             padding-top: 0;
         }
 }
@@ -424,4 +427,54 @@ footer{
 }
 footer a{
     color:rgb(67, 132, 161);
+}
+#tag{
+    color: rgb(3, 75, 109);
+    font-size: 40px; 
+    text-shadow: 0 0 2px black;
+    padding-top: 40px;
+    line-height: 40px;
+}
+
+#form{
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+}
+#email{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin: 5px;
+}
+#email:focus{
+    background: rgb(67, 132, 161) ;
+    color: white;
+   
+}
+#submit{
+    font-size: 20px;
+    padding: 1px;
+    color: white;
+    margin: 5px;
+    background:  rgb(67, 132, 161);
+    border: inset solid 2px lightgray;   
+}
+.socials{
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+perspective: 200px;
+}
+.socials div > img{
+    height: 50px;
+    padding-bottom: 10px;
+}
+.socials div{
+    transition: transform .5s;
+    cursor: pointer;
+}
+.socials div:hover{
+    transform: translatez(40px);
 }
