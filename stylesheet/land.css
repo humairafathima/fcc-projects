@@ -456,8 +456,8 @@ justify-content: center;
     padding: 1px;
     color: white;
     margin: 5px;
-    background:  rgb(67, 132, 161);
-    border: inset solid 2px lightgray;   
+    background:rgb(67, 132, 161);
+    border: inset 2px lightgray;   
 }
 #submit:hover{
     background: white;
